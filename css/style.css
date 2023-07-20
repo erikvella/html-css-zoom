@@ -27,9 +27,32 @@ body{
   position: fixed;
   top: 0;
   z-index: 999;
-  color: rgb(117, 26, 26);
+  color: rgb(255, 255, 255);
   text-align: end;
   
+}
+
+#sw{
+  font-size: 1.5rem;
+  background-color: rgb(185, 184, 184);
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+#sus{
+  font-size: 1.5rem;
+  margin-left: 15px;
+  background-color: rgb(185, 184, 184);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+#top-right{
+  margin-top: 10px;
+  margin-right: 30px;
 }
 
 .section-mid{
@@ -84,7 +107,6 @@ margin: 0 auto;
 .end-meet{
   color: red;
   background-color: rgb(188, 187, 187);
-  text-align: center;
   padding: 50px;
 
 }

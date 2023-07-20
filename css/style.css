@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+.d-flex{
+  display: flex;
+}
 body{
   width: 100%;
   height: 100vh;
@@ -16,21 +19,25 @@ body{
 
 .section-top{
  margin: 0 auto;
-  width: 90%;
-  height: 20vh;
-  margin-top: 50px;
+  width: 100%;
+  height: 5vh;
   
 }
 
 .section-mid{
-  margin: 0 auto;
   width: 90%;
-  height:60vh ;
+  height:80vh;
+  margin: 0 auto;
 }
 
 .section-bot{
   width: 100%;
   margin-top: 20px;
-  height: calc(20vh - 50px);
+  height: calc(15vh - 20px);
   background-color: grey;
+  bottom: 0;
+}
+
+img{
+  max-height: 150px;
 }

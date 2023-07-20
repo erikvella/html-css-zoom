@@ -17,17 +17,24 @@ body{
   border: 2px solid red;
 }
 
+
 .section-top{
  margin: 0 auto;
   width: 100%;
   height: 5vh;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  color: rgb(117, 26, 26);
+  text-align: end;
   
 }
 
 .section-mid{
   width: 90%;
-  height:80vh;
+  height:calc(85vh + 45px);
   margin: 0 auto;
+  margin-top: 70px;
 }
 
 .section-bot{
@@ -35,9 +42,17 @@ body{
   margin-top: 20px;
   height: calc(15vh - 20px);
   background-color: grey;
+  position: fixed;
+  z-index: 999;
   bottom: 0;
 }
 
 img{
-  max-height: 150px;
+  max-width: 210px;
 }
+
+.imma{
+  flex-wrap: wrap;
+  
+}
+

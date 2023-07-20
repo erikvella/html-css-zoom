@@ -45,6 +45,7 @@ body{
   position: fixed;
   z-index: 999;
   bottom: 0;
+  color: white;
 }
 
 img{
@@ -56,3 +57,20 @@ img{
   
 }
 
+.div-cont{
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.icone{
+  font-size: 3rem;
+}
+
+.chev-up{
+  line-height: 60px;
+}
+
+.container{
+width: 50%;
+margin: 0 auto;
+}
